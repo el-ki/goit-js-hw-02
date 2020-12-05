@@ -11,7 +11,7 @@ const formatString = function (string) {
     } else {
         const characters = string.split('');
         const cutCharacters = characters.splice(0, 39);
-        cutCharacters.push('...')
+        cutCharacters.push('...');
         const cutString = cutCharacters.join('');
 
         return cutString;
