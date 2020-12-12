@@ -10,7 +10,7 @@ const formatString = function (string) {
         return string;
     } else {
         const characters = string.split('');
-        const cutCharacters = characters.splice(0, 39);
+        const cutCharacters = characters.splice(0, 40);
         cutCharacters.push('...');
         const cutString = cutCharacters.join('');
 
